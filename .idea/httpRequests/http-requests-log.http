@@ -1,0 +1,52 @@
+GET http://localhost:3001/recipes/5f4e4b766878943ea86c7ebf
+
+<> 2020-09-02T054906.200.json
+
+###
+
+GET http://localhost:3001/recipes
+
+<> 2020-09-02T054832.200.json
+
+###
+
+GET http://localhost:3001/recipes/5f4e5680da55564b28a958c1
+
+<> 2020-09-02T054753.200.json
+
+###
+
+GET http://localhost:3001/recipes/5f4e5680da55564b28a958c1
+
+<> 2020-09-02T054613.404.html
+
+###
+
+GET http://localhost:3001/recipes/5f4e5680da55564b28a958c1
+
+<> 2020-09-02T054541.404.html
+
+###
+
+GET http://localhost:3001/recipes
+
+<> 2020-09-02T054527.200.json
+
+###
+
+GET http://localhost:3000/recipes
+
+###
+
+GET http://localhost:3000/recipes
+
+<> 2020-09-01T072544.200.json
+
+###
+
+GET http://localhost:3000
+
+<> 2020-09-01T072524.200.json
+
+###
+

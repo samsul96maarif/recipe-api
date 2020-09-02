@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="582f0bd8-3f8f-4f45-921b-ff165d638574" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1guMlzxzXLxw6gGCxMwDMboAPgO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recipes-frontend" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3001/recipes/5f4e4b766878943ea86c7ebf" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3001/recipes" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3001/recipes/5f4e5680da55564b28a958c1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/recipes" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.API#3">
+    <configuration name="API#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/API.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="API#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/API.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="API#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/API.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.API#3" />
+        <item itemvalue="HTTP Request.API#2" />
+        <item itemvalue="HTTP Request.API#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="582f0bd8-3f8f-4f45-921b-ff165d638574" name="Default Changelist" comment="" />
+      <created>1598960179419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598960179419</updated>
+      <workItem from="1598960180674" duration="44600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="158" width="426" height="480" key="FileChooserDialogImpl" timestamp="1599002416806">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="466" y="158" width="426" height="480" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1599002416806" />
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1599007100318">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1599007100318" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1599007100318">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1599007100318" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1599007100318">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1599007100318" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1599007100318">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state width="1324" height="176" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1599007100318" />
+    <state x="187" y="35" key="SettingsEditor" timestamp="1598960294760">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="187" y="35" key="SettingsEditor/0.31.1366.737@0.31.1366.737" timestamp="1598960294760" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598968241450">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.31.1366.737@0.31.1366.737" timestamp="1598968241450" />
+  </component>
+</project>

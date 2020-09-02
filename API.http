@@ -1,0 +1,10 @@
+http://localhost:3001
+
+###
+http://localhost:3001/recipes
+
+###
+http://localhost:3001/recipes/5f4e4b766878943ea86c7ebf
+
+###
+Delete http://localhost:3001/recipes/5f4e5680da55564b28a958c1
