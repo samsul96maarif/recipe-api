@@ -3,7 +3,6 @@
  * Copyright (c) 2020.
  */
 const fs = require('fs')
-const path = './file.txt'
 
 exports.imageFilter = (req, file, cb) => {
     // Accept images only
@@ -13,10 +12,7 @@ exports.imageFilter = (req, file, cb) => {
     }
     let baseStorage = "../public/images/recipes/"
     let data = baseStorage + file.originalname
-    console.log("data : ",data)
-    console.log("hasil : ", fs.existsSync(data))
     if(fs.existsSync(data)){
-        console.log("masuk")
         req.fileExistedValidation = 'File Exist';
         return cb(new Error('File exist'), false);
     }

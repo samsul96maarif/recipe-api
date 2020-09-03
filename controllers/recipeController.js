@@ -4,7 +4,7 @@
  */
 
 const domain = require("../database/domains/recipesDomain")
-const baseResponse = require("../helpers/response")
+const responseHelper = require("../helpers/response")
 const helper = require("../helpers")
 
 const multer = require("multer")
@@ -23,11 +23,10 @@ let upload = multer({storage: storage, fileFilter: helper.imageFilter}).single("
 exports.getAll = async(req, res) => {
     try {
         let data = await domain.getAll()
-        return baseResponse.success(res, 200, "success", data)
+        return responseHelper.baseResponse(res, 200, "success", data)
     } catch (error) {
-        console.log("error ", error)
-        return baseResponse.errorBadParam(res, error.message)
-        // return res.status(400).json({"error":error})
+        console.log("Error in recipeController@getAll : ", error)
+        return responseHelper.baseResponse(res, 400, error.message, "")
     }
 }
 
@@ -50,11 +49,11 @@ exports.store = async(req, res) => {
 
         resUploadedImage = await uploadImage
         let model = await domain.store(resUploadedImage)
-        return res.status(201).json({message: "Succeed", "data": model, code: 201})
+        return responseHelper.baseResponse(res, 201, "success", model)
 
     } catch (err) {
-        console.log("error in productController@store : ", err)
-        return res.status(400).json({"error": err})
+        console.log("Error in recipeController@store : ", err)
+        return responseHelper.baseResponse(res, 400, err.message, "")
     }
 }
 
@@ -81,32 +80,29 @@ exports.update = async(req, res) => {
 
         resUploadedImage = await uploadImage
         let model = await domain.update(req.params.id, resUploadedImage)
-
-        return res.status(200).json({message: "Success", "data": model, code: 200})
-
+        return responseHelper.baseResponse(res, 200, "success", model)
     } catch (error) {
-        console.log("error : ", error)
-        return res.status(400).json({error: error})
+        console.log("Error in recipeController@update : ", error)
+        return responseHelper.baseResponse(res, 400, error.message, "")
     }
 }
 
 exports.show = async(req, res) => {
     try{
         let data = await domain.show(req.params.id)
-        return res.status(201).json({message: "success", "data": data, code: 200})
-        // return res.status(200).json({message:"success", data:data})
+        return responseHelper.baseResponse(res, 200, "success", data)
     } catch (err){
-        console.log("error : ", err)
-        return res.status(400).json({message:err.message})
+        console.log("Error in recipeController@show : ", err)
+        return responseHelper.baseResponse(res, 400, err.message, "")
     }
 }
 
 exports.delete = async(req, res) => {
     try {
         let data = await domain.delete(req.params.id)
-        return res.status(201).json({message: "success", "data": data, code: 201})
-        // return res.status(201).json({message: "Succeed", data: data})
+        return responseHelper.baseResponse(res, 201, "success", data)
     } catch (err) {
-        return res.status(400).json({error: err})
+        console.log("Error in recipeController@delete : ", err)
+        return responseHelper.baseResponse(res, 400, err.message, "")
     }
 }

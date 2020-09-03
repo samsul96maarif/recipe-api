@@ -39,11 +39,8 @@ mongoose.connection.on('connected', function () {
 
 
 app.listen(PORT, () => {
-    app.get('/', function (req, res) {
-        console.log(req.files)
-        let host = req.headers.host
-        var fullUrl = req.protocol + '://' + req.get('host');
-        res.json({ message: 'Welcome to sam tech :)'+host+fullUrl })
+    app.get('/', (req, res) => {
+        res.json({ message: 'Welcome to sam tech :)'})
     })
 
     routes(app)

@@ -34,13 +34,10 @@ exports.show = id => {
 
 exports.update = (id, data) => {
     return new Promise((resolve, reject) => {
-        console.log("data yng dikirm domain : ", data)
         model.findOneAndUpdate({_id: id}, data, {new: true}, (err, res) => {
             if(err){
-                console.log("error in domain : ", err)
                 reject(err)
             }
-            console.log("hasil di domain : ", res)
             resolve(res)
         })
     })
